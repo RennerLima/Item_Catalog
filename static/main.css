@@ -1,0 +1,61 @@
+body{
+	font: 'Montserrat';
+	background-color: rgb(238,244,250);
+}
+
+h1 {
+	font: bold 30pt 'Slabo 27px', serif;
+	text-align: center;
+	color: #FA8072;
+}
+
+h2, h3, h4 {
+	font: bold 18pt 'Slabo 27px', serif;
+	margin: 0;
+	color: #FA8072;
+}
+
+p {
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15pt;
+}
+
+.painel {
+	position:absolute;
+	border: 2px solid;
+	opacity: 0.8;
+    filter: alpha(opacity=60);
+    border-radius: 25px;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 5px;
+    border-color: #000000;
+    background-color: #ffffff;
+}
+
+.header {
+	left:50%;
+	text-align: center;
+}
+
+.name {
+	width:50%;
+	display: inline-block;
+	float: left;
+}
+
+.price {
+	text-align: right;
+	width:50%;
+	float: right;
+}
+
+.flash{
+	background-color: #98FB98;
+	width:100%;
+	text-decoration: none;
+}
